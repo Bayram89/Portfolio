@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 0.5em 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background: #f39c12;
+    color: white;
+    padding: 2em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #f39c12;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5em 0;
+}
+
+#skills ul, #portfolio ul {
+    padding-left: 20px; 
+    text-align: left; 
+}
+
+#portfolio p {
+    margin-bottom: 1em;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
