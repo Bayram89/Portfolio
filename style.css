@@ -145,6 +145,10 @@ footer {
 footer p {
     margin: 0;
 }
+#portfolio .projects {
+    display: block;
+}
+
 
 @media (max-width: 768px) {
     nav ul {
