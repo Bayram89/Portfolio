@@ -17,6 +17,7 @@ body {
 
 h1, h2, p {
     margin-bottom: 1.5em;
+    font-size: 20px;
 }
 
 nav {
@@ -146,11 +147,18 @@ footer p {
     margin: 0;
 }
 #portfolio .projects {
-    display: block;
+    display: flex;
+    flex-direction: column;
+
+}
+.projects {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1em;
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 400px) {
     nav ul {
         flex-direction: column;
         gap: 1.5em;
@@ -171,6 +179,13 @@ footer p {
     h2 {
         font-size: 2.5em;
     }
+
+    .projects {
+        width:  200px;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 1em;
+    }   
 }
 
 @media (max-width: 640px) {
