@@ -1,0 +1,156 @@
+.contact-section {
+  background-color: var(--color-bg);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-lg);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-card {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+  cursor: pointer;
+}
+
+.contact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.location-card {
+  cursor: default;
+}
+
+.contact-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.email-icon {
+  background-color: rgba(20, 184, 166, 0.1);
+}
+
+.email-icon::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  border: 2px solid var(--color-accent);
+  border-radius: 3px;
+}
+
+.email-icon::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 12px solid var(--color-accent);
+  top: 18px;
+}
+
+.github-icon {
+  background-color: rgba(102, 126, 234, 0.1);
+}
+
+.github-icon::before {
+  content: '<>';
+  font-size: 24px;
+  font-weight: var(--font-weight-bold);
+  color: #667eea;
+}
+
+.linkedin-icon {
+  background-color: rgba(118, 75, 162, 0.1);
+}
+
+.linkedin-icon::before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 3px solid #764ba2;
+  border-radius: 50%;
+  top: 14px;
+  left: 14px;
+}
+
+.linkedin-icon::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 3px solid #764ba2;
+  border-radius: 50%;
+  bottom: 14px;
+  right: 14px;
+}
+
+.location-icon {
+  background-color: rgba(234, 88, 88, 0.1);
+}
+
+.location-icon::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #EA5858;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  top: 16px;
+}
+
+.location-icon::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-surface);
+  border-radius: 50%;
+  top: 21px;
+  left: 26px;
+  transform: rotate(-45deg);
+}
+
+.contact-title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+.contact-detail {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  word-break: break-word;
+}
+
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
