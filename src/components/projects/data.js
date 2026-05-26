@@ -4,7 +4,7 @@ export const projects = [
     description: "Digital pet management application for tracking pet information, medical records, and care schedules.",
     tech: ["React", "CSS", "HTML", "Node.js", "MySQL", "Git"],
     github: "https://github.com/Bayram89/PetPass2026",
-    demo: "https://petpass404.netlify.app/"
+    demo: "https://petpass2026-frontend.onrender.com/"
   },
   {
     title: "Meal Sharing",
