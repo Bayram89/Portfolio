@@ -1,16 +1,38 @@
-# React + Vite
+# Bayram Erdem Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hey, I'm Bayram.
 
-Currently, two official plugins are available:
+This is my portfolio website.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I made it as a simple place to show who I am, what I've been working on, and the kind of direction I'm moving in as a developer.
 
-## React Compiler
+Live site:
+[https://bayram-portfolio-3.netlify.app/](https://bayram-portfolio-3.netlify.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## What's inside
 
-## Expanding the ESLint configuration
+- A short intro about me
+- A few projects I'm proud of
+- The tools I've been working with
+- Easy ways to contact me
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Why I made this
+
+After my bootcamp, I wanted one simple place to show what I've been working on and who I am.
+
+## Want to run it locally?
+
+```bash
+npm install
+npm run dev
+```
+
+## Contact
+
+- Email: `bayram9erdem@gmail.com`
+- GitHub: [Bayram89](https://github.com/Bayram89)
+- LinkedIn: [Bayram Erdem](https://www.linkedin.com/in/bayramerdem/)
+
+## Final note
+
+This portfolio will keep growing as I keep learning and building.
