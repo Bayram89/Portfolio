@@ -1,7 +1,3 @@
-# Bayram Erdem Portfolio
-
-Hey, I'm Bayram.
-
 This is my portfolio website.
 
 I made it as a simple place to show who I am, what I've been working on, and the kind of direction I'm moving in as a developer.
