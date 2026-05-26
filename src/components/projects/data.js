@@ -3,7 +3,7 @@ export const projects = [
     title: "PetPass",
     description: "Digital pet management application for tracking pet information, medical records, and care schedules.",
     tech: ["React", "CSS", "HTML", "Node.js", "MySQL", "Git"],
-    github: "https://github.com/Bayram89/PetPass",
+    github: "https://github.com/Bayram89/PetPass2026",
     demo: "https://petpass404.netlify.app/"
   },
   {
