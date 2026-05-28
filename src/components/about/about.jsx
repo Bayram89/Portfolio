@@ -11,22 +11,22 @@ function About() {
           </div>
           <div className="about-text">
             <p>
-              Hey, I'm Bayram. I'm a full stack web developer based in Copenhagen. I recently finished a year long bootcamp and I built projects with HTML, CSS, JavaScript, React, Node.js, Next.js, and MySQL. It was intense, but I loved every part of it. Now I'm putting this portfolio together to share what I've been building and where I'm headed next.
+              Hey, I&apos;m Bayram.
             </p>
             <p>
-              I also help out at HackYourFuture Denmark, keeping our developers, mentors, and volunteers connected and moving forward. I've always had a passion for working with people and seeing what's possible when a team clicks.
+              I build web apps and enjoy turning ideas into something real and useful. Most of the time I work with React, Node.js, JavaScript, and MySQL.
             </p>
             <p>
-              Before coding, I spent over eight years coordinating international projects in the medical field. It taught me a lot about trust, teamwork, and getting things done, lessons I carry into tech every day.
+              Before tech, I spent years working with people, coordinating projects, solving problems, and keeping things moving. That part of me never changed. I still enjoy bringing people together just as much as building software.
             </p>
             <p>
-              Lately, I've been exploring how AI can make work simpler and more meaningful. I like building things that help people communicate better and work smarter.
+              These days I&apos;m curious about AI, good product ideas, and simple tools that actually make life easier.
             </p>
             <p>
-              Outside of all that, I try to keep life simple, like good food, good people and time to breathe out in the nature.
+              Outside of coding, I&apos;m usually somewhere in nature, drinking coffee, eating good food, or having long conversations with good people.
             </p>
             <p>
-              Thanks for stopping by. If something here speaks to you, don't hesitate to say hi.
+              Glad you stopped by.
             </p>
           </div>
         </div>
