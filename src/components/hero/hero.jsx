@@ -8,7 +8,7 @@ function Hero({ scrollToSection, children }) {
       <div className="hero-content">
         <div className="hero-copy">
           <h1 className="hero-title">Bayram Erdem</h1>
-          <p className="hero-subtitle">Junior Software Engineer (Full-Stack)</p>
+          <p className="hero-subtitle">Software Engineer (Full-Stack)</p>
           <p className="hero-tagline">Building clean, functional, and user-friendly web experiences</p>
           <button className="hero-cta" onClick={() => scrollToSection('contact')}>
             Get In Touch
