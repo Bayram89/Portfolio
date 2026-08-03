@@ -2,8 +2,8 @@ This is my portfolio website.
 
 I made it as a simple place to show who I am, what I've been working on, and the kind of direction I'm moving in as a developer.
 
-Live site:
-[https://bayram-portfolio-3.netlify.app/](https://bayram-portfolio-3.netlify.app/)
+Live site: 
+[https://bayram-portfolio.netlify.app/)](https://bayram-portfolio.netlify.app/)
 
 ## What's inside
 
