@@ -14,19 +14,16 @@ function About() {
               Hey, I&apos;m Bayram.
             </p>
             <p>
-              I build web apps and enjoy turning ideas into something real and useful. Most of the time I work with React, Node.js, JavaScript, and MySQL.
+              I&apos;m a junior software developer who enjoys building human-friendly web applications. I mostly work with React, JavaScript, Node.js, MySQL, and Python, and I like turning rough ideas into something clean, practical, and easy to use.
             </p>
             <p>
-              Before tech, I spent years working with people, coordinating projects, solving problems, and keeping things moving. That part of me never changed. I still enjoy bringing people together just as much as building software.
+              Before moving into tech, I spent years coordinating international projects, working closely with people, solving problems, and keeping things moving. That experience still shapes how I work today. I care about clear communication, teamwork, and building things that actually help people.
             </p>
             <p>
-              These days I&apos;m curious about AI, good product ideas, and simple tools that actually make life easier.
+              Lately, I&apos;ve been especially interested in AI, thoughtful product ideas, and small tools that make everyday work simpler. I&apos;m still learning, still building, and enjoying the process of becoming better with every project.
             </p>
             <p>
-              Outside of coding, I&apos;m usually somewhere in nature, drinking coffee, eating good food, or having long conversations with good people.
-            </p>
-            <p>
-              Glad you stopped by.
+              Outside of coding, I&apos;m usually enjoying good food, fixing something small DIY at home, or out hiking between lakes.
             </p>
           </div>
         </div>
