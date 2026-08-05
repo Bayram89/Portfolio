@@ -42,6 +42,10 @@ export const skills = {
   ],
   "Backend & Tools": [
     {
+      name: "Python",
+      icon: <ApiIcon />
+    },
+    {
       name: "Express.js",
       icon: <ExpressIcon />
     },
@@ -59,6 +63,22 @@ export const skills = {
     },
     {
       name: "REST APIs",
+      icon: <ApiIcon />
+    },
+    {
+      name: "Flask",
+      icon: <ApiIcon />
+    },
+    {
+      name: "JSON",
+      icon: <ApiIcon />
+    },
+    {
+      name: "pytest",
+      icon: <ApiIcon />
+    },
+    {
+      name: "CLI",
       icon: <ApiIcon />
     },
     {
