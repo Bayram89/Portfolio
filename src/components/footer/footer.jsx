@@ -5,7 +5,7 @@ function Footer({ scrollToSection }) {
     <footer className="footer">
       <div className="container">
         <div className="footer-content">
-          <p className="footer-text">&copy; 2025 Bayram Erdem. All rights reserved.</p>
+          <p className="footer-text">&copy; 2026 Bayram Erdem. All rights reserved.</p>
           <div className="footer-links">
             <a href="https://github.com/Bayram89" className="footer-link" target="_blank" rel="noopener noreferrer">
               GitHub
