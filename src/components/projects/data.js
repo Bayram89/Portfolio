@@ -19,5 +19,19 @@ export const projects = [
     tech: ["JavaScript", "CSS", "HTML", "Node.js", "Git"],
     github: "https://github.com/Bayram89/team31-homework",
     demo: "https://forkandflavour.netlify.app/"
+  },
+  {
+    title: "Job Application Tracker",
+    description: "A Python application with a command-line interface, JSON persistence, Flask REST API and pytest tests.",
+    tech: ["Python", "Flask", "JSON", "pytest", "CLI", "Git"],
+    github: "https://github.com/Bayram89/job-application-tracker",
+    demo: ""
+  },
+  {
+    title: "Recipe Cost Calculator",
+    description: "A Python command-line tool that calculates ingredient usage costs, total recipe cost and cost per portion.",
+    tech: ["Python", "CLI", "Git"],
+    github: "https://github.com/Bayram89/recipe-cost-calculator",
+    demo: ""
   }
 ];
