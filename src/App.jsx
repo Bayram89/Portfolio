@@ -8,6 +8,7 @@ import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 import { projects } from './components/projects/data'
 import { skills } from './components/skills/data'
+import './personal.css'
 
 function App() {
   const scrollToSection = (id) => {

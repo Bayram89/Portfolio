@@ -5,9 +5,11 @@ function Projects({ projects }) {
     <section className="section projects-section" id="projects">
       <div className="container">
         <h2 className="section-title">Projects</h2>
+        <p className="section-subtitle">What I&apos;ve been building, from everyday tools to the systems behind an API.</p>
         <div className="projects-grid">
           {projects.map((project, index) => (
             <div className="project-card" key={index}>
+              <span className="project-number">{String(index + 1).padStart(2, '0')} / {project.demo ? 'Web application' : 'Backend & tools'}</span>
               <h3 className="project-title">{project.title}</h3>
               <p className="project-description">{project.description}</p>
               <div className="project-tech">
