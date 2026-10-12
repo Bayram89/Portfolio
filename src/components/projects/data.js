@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "API Gateway Platform",
+    description: "Two TypeScript services behind a Kong API gateway, with authentication, rate limiting, request tracking, and monitoring using Prometheus and Grafana.",
+    tech: ["TypeScript", "Node.js", "Express", "Kong", "Docker", "Prometheus", "Grafana", "GitHub Actions"],
+    github: "https://github.com/Bayram89/api-gateway-platform",
+    demo: ""
+  },
+  {
     title: "Job Application Tracker",
     description: "A Python application with a command-line interface, JSON persistence, Flask REST API and pytest tests.",
     tech: ["Python", "Flask", "JSON", "pytest", "CLI", "Git"],
